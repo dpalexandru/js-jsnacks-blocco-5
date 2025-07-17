@@ -22,6 +22,7 @@ const students = [{
 // Risultato: '3C'
 
 const oggettoMarcoLanci = students.find(result => result.name === 'Marco Lanci');
-const { class: classe, name } = oggettoMarcoLanci;
+const { class: classe, name } = oggettoMarcoLanci; // class coincide con un termine js non utilizzabile 
+
 
 console.log(classe);
